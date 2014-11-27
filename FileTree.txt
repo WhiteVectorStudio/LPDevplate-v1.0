@@ -1,0 +1,551 @@
+C:\OpenServer\domains\LPDevplate\
+|---.gitignore
+|---analytics_code.txt
+|---config.rb
+|---gulpfile.js
+|---package.json
+|---README.md
+|---.git
+|   |---COMMIT_EDITMSG
+|   |---config
+|   |---description
+|   |---HEAD
+|   |---index
+|   |---hooks
+|   |   |---applypatch-msg.sample
+|   |   |---commit-msg.sample
+|   |   |---post-update.sample
+|   |   |---pre-applypatch.sample
+|   |   |---pre-commit.sample
+|   |   |---pre-push.sample
+|   |   |---pre-rebase.sample
+|   |   |---prepare-commit-msg.sample
+|   |   `---update.sample
+|   |---info
+|   |   `---exclude
+|   |---logs
+|   |   |---HEAD
+|   |   `---refs
+|   |       |---heads
+|   |       |   `---master
+|   |       `---remotes
+|   |           `---origin
+|   |               `---master
+|   |---objects
+|   |   |---00
+|   |   |   `---1a7020a8db9aca9c191c9faae271715ddd103d
+|   |   |---02
+|   |   |   `---5fc4ba08135cf2e189be4ceb7c71c84712687e
+|   |   |---03
+|   |   |   `---d3a180ab7f47f8eacef3a5da34f496c62bcbf2
+|   |   |---05
+|   |   |   |---3e81e185b7c05fbf41dc482d4f4c9ce2791dc1
+|   |   |   `---f11ad0c4b452100ff8b76a0a83e728f424986a
+|   |   |---0a
+|   |   |   `---b0abd05bbb3afb87cf990d6a128f42aefd42b5
+|   |   |---0b
+|   |   |   |---43211282e15f68b7b52ea9b5306b25865f262c
+|   |   |   `---a555aae9b68013089daf1e0ccd236a32326274
+|   |   |---0c
+|   |   |   `---7838848a20a85acd8959e759367cb530a8d283
+|   |   |---0f
+|   |   |   `---186bd3d54eb434053a7de465508e57e05ebf12
+|   |   |---10
+|   |   |   |---bd9ea78a03aa66605cdef05478b2fd52276d5e
+|   |   |   `---e89d034e9e21d528bdb3e4dd27f09e53ab67e4
+|   |   |---11
+|   |   |   `---d22edc5dee3d19cd17873c32e20e543b53cfd3
+|   |   |---16
+|   |   |   |---6ea7ce2a5ab5e253e228b483bc4b152b908e17
+|   |   |   `---a5d630f1317083024cd1d71c6a8725cf3d5363
+|   |   |---18
+|   |   |   `---ad1a642da7adac46f44ffe58d7054b0f943237
+|   |   |---19
+|   |   |   `---b5fa0947454771a252c91fb795389cce9daf39
+|   |   |---1e
+|   |   |   `---679659be057c4512addde57c8304a3bba3ecd6
+|   |   |---1f
+|   |   |   `---26050f5fdedcbe307b73669e32368419d60dc9
+|   |   |---20
+|   |   |   `---33f3a1d056a40bd9fe6d1f6b5f272836618b83
+|   |   |---21
+|   |   |   `---51fb67c4294b5cab0d03c98b34f8634c1f2220
+|   |   |---22
+|   |   |   |---38cae89c230362616e9cdf1f1d07f7c63d3117
+|   |   |   `---d205f4849e812a081f608d4977326eb2450f09
+|   |   |---24
+|   |   |   `---77003c2d8e64c5d4fa07f5a66d8dc98c515a9b
+|   |   |---25
+|   |   |   |---a9a6e9bda0d02e12a08ace16abdce43effd65c
+|   |   |   |---f0bc1d38c5fc8d2737f51dbe71690fccfbd3a0
+|   |   |   `---f5b7ba8a7fe5304cb63eeb198b7fab8d70e268
+|   |   |---29
+|   |   |   `---b945194a08565ae64bc1f72ce5d11570a318c7
+|   |   |---2a
+|   |   |   `---357b1485e77c998a1a5ebedb529397bc33ca5e
+|   |   |---2b
+|   |   |   `---fc09f14ed2d92dd7081fb84e9f2bb578576a69
+|   |   |---2c
+|   |   |   |---148768e01394117b9ccee1c30474fba9a17603
+|   |   |   |---3d1193f6611eb12d177fa0666782d51d2ce8b6
+|   |   |   `---531b9ee7471b38dc7dc88dcf81c571e7680cb2
+|   |   |---30
+|   |   |   `---aa66f871be44922d2b819c6c5bc795f9a7ee29
+|   |   |---32
+|   |   |   `---6709422cc71d3ecd0dee37672aa556a43d1506
+|   |   |---35
+|   |   |   `---4a47551ee32e398d6e9486e9f256d802feac2f
+|   |   |---36
+|   |   |   |---2e7b16055909fee08973a9fb7e235c01f3d773
+|   |   |   |---8c1e2c441fb8efbcd90b2718182504738ffde4
+|   |   |   `---f7270d581d7f76c8930caab6f22a489e6f7966
+|   |   |---3a
+|   |   |   `---9f330d92cc8286703b4db6e72670c82defe59d
+|   |   |---3c
+|   |   |   |---66a1f9f190b8b3b90de84ec6634f3c176ab899
+|   |   |   `---738524e86baa9e6f672c0c1c136f55579a0499
+|   |   |---3d
+|   |   |   `---b0dd3cb23e805c46331726136cfa3172d10974
+|   |   |---3e
+|   |   |   |---3566392969676e01c7fd61c222a1ff4f87654b
+|   |   |   `---6f1854319bf747c6fdc279684a399d0a7b4ee2
+|   |   |---3f
+|   |   |   `---c5f880038c9cf3838ce6c4f204cdfbb5d98f82
+|   |   |---40
+|   |   |   `---929aa43fcb261421468e7f6e8c131d35cbb1c9
+|   |   |---44
+|   |   |   `---15aba3f9ebaa3373e0aa8c3c8248478776e20d
+|   |   |---45
+|   |   |   `---527068c6d6cd2df6dbaceb83e798eecac7b508
+|   |   |---46
+|   |   |   |---24286ec0f07e53b5e4fb9519002ada192c073c
+|   |   |   |---3f36c6dd6e31e92b02471516dd5bdf2fd4352c
+|   |   |   `---b088b6f2c4e9d75467d97d79d57bdf0a44b8cb
+|   |   |---47
+|   |   |   `---e31baef959d5ea3975d83670ac9b3cc373f7dd
+|   |   |---49
+|   |   |   `---a5a725497a97cb2cb20c68049c440fba52445c
+|   |   |---4c
+|   |   |   |---b3c03987682004786edc41faa0b71bf011dfeb
+|   |   |   `---fe8f4bbefe7e8a4275e2abf8cd93a504da78c5
+|   |   |---4d
+|   |   |   |---6985477d0b8b3824ac9eaf054164c8e5e4eb4c
+|   |   |   `---f950eb79bb0dae9c40bb63dd64ee859f1ab4d8
+|   |   |---4e
+|   |   |   `---e629acf7e8666703b5f05d78d6e142fd2ccec5
+|   |   |---4f
+|   |   |   |---9a33b23ff763e42439aaf8e8f474f478800993
+|   |   |   |---e2ae34c8e2a3ea76665ca8d0d24cd2db08c0ab
+|   |   |   `---f9e9190872aebe330fc80fb59e4b7d765a7464
+|   |   |---51
+|   |   |   `---97dfdddf7f5b905b566c61595419422dc67f00
+|   |   |---52
+|   |   |   `---d8a64a76a51d410392e6cc23edc0ed5836b1c2
+|   |   |---53
+|   |   |   `---cd0433e268f05f0fb252636f224192534f73eb
+|   |   |---57
+|   |   |   `---461f856d92e97d6c5514164fef3f912c3d924b
+|   |   |---58
+|   |   |   |---5125486dbe0ac3eeb59cc8108ec57c9fad0296
+|   |   |   `---fb4dfc5fef0eea192738d90a4c416f9426913a
+|   |   |---59
+|   |   |   `---6de8a53b18f125de3fb7daf6fa4806c3af864b
+|   |   |---5a
+|   |   |   |---22d8ea86b168246412c593d6039567c0f56c6a
+|   |   |   `---479d94aafa155df04fc3845d41fcc704622f4d
+|   |   |---5b
+|   |   |   `---45b143daf94fc4afcb2f1c25e39a4a66257249
+|   |   |---5c
+|   |   |   `---7e8896b3dd8c19507a07eac437a8d039336b2c
+|   |   |---5e
+|   |   |   `---fcb7fb892c39397e7581c01ddd854d4796c8df
+|   |   |---5f
+|   |   |   `---17eac2ef9b50369d4fea2a1071ebed7ca1c4d2
+|   |   |---65
+|   |   |   |---8628e19a4a57a428b0f9c74a630cb575770bbb
+|   |   |   `---e55def690e99123a098534e6a1e02e26d15817
+|   |   |---66
+|   |   |   |---318f1016c9b45ff98f369cc1b83d46158043e1
+|   |   |   |---7b6a4a49e517058e20b8628f7657882f29af12
+|   |   |   `---fedcb371dcc86760132527152c7b214e9b4e91
+|   |   |---67
+|   |   |   `---56efb32184ae3bb156896f677acb6ed935f78c
+|   |   |---6a
+|   |   |   `---a056ea798163cdcbe7934fe797f5fcc6dc40f7
+|   |   |---6c
+|   |   |   `---9caca96c3294be5f343d8ee3de29ef3348d49d
+|   |   |---6e
+|   |   |   `---8697f25cace41b15aa92a8017aef1078b70225
+|   |   |---70
+|   |   |   `---dc8306123ccd4bf3210558a6be8f4e8ed683d9
+|   |   |---71
+|   |   |   `---7a42f6a21daf16e6e6086a1664d90f89429a72
+|   |   |---72
+|   |   |   `---361bbbbb0b725fc095ffe677c74147137c1009
+|   |   |---73
+|   |   |   `---eea5156a7482fcd5fa7d8e04372dad0271e254
+|   |   |---77
+|   |   |   `---37cdb87d26486f6ed5c2fc24cac2751c2c9e9d
+|   |   |---79
+|   |   |   `---1e01962ffaabccac0394764d0acfba76b31229
+|   |   |---80
+|   |   |   `---6f53c4b1e96e28da67a7b3a3883f91ec8d4e96
+|   |   |---83
+|   |   |   `---4c5ad96882844a2a217946f98a8c00cffec5e5
+|   |   |---89
+|   |   |   |---147fd5907ed214014b8fda9b455a136b0aee12
+|   |   |   `---2f15afac9cc9fe4571cef44cdf338561122115
+|   |   |---8c
+|   |   |   `---71e93b846e4d479d6328c7b69f3baf3f6956e3
+|   |   |---8d
+|   |   |   |---4310098d719284a02fc84b9633b9ab0d7ee532
+|   |   |   `---6c2afb00f7f05f57f27f18128edcb471b4fe08
+|   |   |---93
+|   |   |   `---071b98d024ca5dcf1394146bc1595ff29455f9
+|   |   |---95
+|   |   |   |---3b9161ab1a77d69080f8906a87983b080bcb12
+|   |   |   `---3feebd1c330269dbb757f3ae2f5db2b7d94a47
+|   |   |---96
+|   |   |   |---0f91b45e6e462a94c3ecc72baef55c4def9b54
+|   |   |   `---9c9e66604c2110ec13abebd72b90e3a95cfe77
+|   |   |---98
+|   |   |   `---d2115617be7f8de343ccc7c172738f172b1bc0
+|   |   |---99
+|   |   |   |---c0d783aa7503bcc3e122f4ca44e6d3077e0aea
+|   |   |   `---d5c75e6293d918eaf9bee4e28d1cacaa44035c
+|   |   |---9a
+|   |   |   `---3ce4aaef31a4edad7f8ff4c198eca12ebcdf56
+|   |   |---9b
+|   |   |   `---b5a4ebd63aa888a0ffdf8f30c64351aebb9e63
+|   |   |---9f
+|   |   |   |---4890405bf5fcbd8bcc40e643d722377166df6f
+|   |   |   |---512b0ffb566afc383eaf7b76f743e41fa9fb65
+|   |   |   |---70e0785ede96cf8966768ea18657d0be0f38ce
+|   |   |   |---78ad950a625944627d683bb1be345d7298fd90
+|   |   |   `---78f9b6c3f695563731c7e8632de8b6ea20a677
+|   |   |---a1
+|   |   |   |---2ed632fb2d9349e3decf2af6df989b17ed3d80
+|   |   |   `---3bd48ab0c1ef29735cacff616b6e03a05f5aa8
+|   |   |---a3
+|   |   |   `---c5a237ea82b80380833ad65f500caf414c2edf
+|   |   |---a5
+|   |   |   |---56bf6a9c429f28e7be0f704978c4e447ffe40a
+|   |   |   `---a044664bff64d8d3eb95a92af75bd260f672eb
+|   |   |---a7
+|   |   |   `---39ce3775c8ebcc65bf329eebfcd2f7d3fe619b
+|   |   |---a8
+|   |   |   `---cb0bdea97f1a2c50c8606130d6085725369b2d
+|   |   |---ab
+|   |   |   |---28a24729b320bffd3d2f60302af949db39ab85
+|   |   |   |---407140466d29c80da5d0295ca7c31ccc739086
+|   |   |   `---635c0788c77e9f58b94b7236284038d8287549
+|   |   |---ad
+|   |   |   `---e1282c0598f42c7fbaf83ac7ccd16657ae82ba
+|   |   |---ae
+|   |   |   `---eddaf782d7df9adb92049677ac17c5cebdc9db
+|   |   |---af
+|   |   |   `---69077e1fbbe8cd36e22f927b4c1876174953f6
+|   |   |---b1
+|   |   |   `---a2a7bac250c035903b509c445eab2b68363b6b
+|   |   |---b2
+|   |   |   `---cdeac3c281b861be4772320590515db01f1c3d
+|   |   |---b6
+|   |   |   `---b7a7e6a00b3fcc5dbd064bc097c635830bfa97
+|   |   |---b7
+|   |   |   |---3adbc25e74681c40bc2680aa26f52d72200e5f
+|   |   |   `---535179b54284392689a3e484250b7ca44a6ef0
+|   |   |---b8
+|   |   |   `---be0e352b8066269d4f6eff9b82290b493a6983
+|   |   |---bd
+|   |   |   `---a81b1769e64bf5a1e5438d00fa0b7523d57786
+|   |   |---be
+|   |   |   `---9773aa7326942b5f960dbf3dadc59c25bfc3fa
+|   |   |---bf
+|   |   |   `---75ea5e3b82367bf41a903eaae96cd8982f7e9a
+|   |   |---c2
+|   |   |   |---afa63947337c86959eab1645d0bff5b7e4129a
+|   |   |   `---ff7152c0a43a0d2c18d70d50c5e0b5696e2277
+|   |   |---c3
+|   |   |   |---2224a05cfea810c8bb1abc94e973e0115cb645
+|   |   |   |---7e30019b0a95dd3ef76ffa78403a096da70125
+|   |   |   `---b8067b5c2de0a0bdb9ee0178c7ea488bbe8383
+|   |   |---c5
+|   |   |   `---d5d4127311715ff8cc86861dbba1eaaa629f95
+|   |   |---cc
+|   |   |   `---5ac90a7d56af23ad75ed9d89170c51f960147d
+|   |   |---cd
+|   |   |   `---ab6a626745da5ff0a2c505db4666afbcab9aab
+|   |   |---cf
+|   |   |   `---9f80b1bed18b9661e8fef43110322ed7be95a0
+|   |   |---d1
+|   |   |   `---ae955a256bd76960840034b81b200930603e27
+|   |   |---d4
+|   |   |   |---3531b436cf6bd50db614d031d260435cfc1bcd
+|   |   |   `---ad1b4c696a672a2ce05d92361b93969cc176e5
+|   |   |---d5
+|   |   |   |---48475177379a32ee5e0df33ef9b17abb92ec25
+|   |   |   `---4f05675d3118594fb368e1d5d2291310681c64
+|   |   |---d7
+|   |   |   `---bc9ca9b5cb435045e001947d6f2e71cef5bdd7
+|   |   |---d9
+|   |   |   `---bf63122617930eea79adf8cbab2ddf29c0280a
+|   |   |---da
+|   |   |   |---db718b161d463ce83b957937d71f9f316efc2e
+|   |   |   `---dcedc2c2c66f6ca72305e07dc259482613f6fb
+|   |   |---db
+|   |   |   `---a27f11859e2e54c5e1f9364889d5adaa4c5b5b
+|   |   |---dd
+|   |   |   |---2adec342cdc6769bebe643508267a234c59b27
+|   |   |   `---e8ad8e322fa540bb80c99bc267565810fb3d16
+|   |   |---de
+|   |   |   |---0fb2dd6f26d8e46af76b373e55e874b7c6bbea
+|   |   |   |---17fbacb4456e68387796e80dea61a44deb07f2
+|   |   |   `---5e07cbd79dd85f0562a618e5ad0b67ea49ee5f
+|   |   |---e2
+|   |   |   `---960d84c63a8e6d34776c606e79f57e43f28fbd
+|   |   |---e5
+|   |   |   |---2e56d6506c5b4e82181f6d7980650079a5be11
+|   |   |   `---9f800901e093b121033dc250db50bf653acb59
+|   |   |---e6
+|   |   |   |---78db5a7b8933e10654bee8396ad39d4d4e8641
+|   |   |   `---df6736e3c73c7af6b2d7e32f7985dca06b9d1f
+|   |   |---e8
+|   |   |   |---67479a60329f3ebaf392e811bca25cb8d247c5
+|   |   |   `---ae61d947a49972aad2a1b14d96531b970cc2f6
+|   |   |---e9
+|   |   |   `---29141b63025db7777004d36e020520064a65f1
+|   |   |---ec
+|   |   |   `---be8d4dcc7ef3da873efd0a80f30b8a52d134a9
+|   |   |---ed
+|   |   |   `---d64525582d58e865b04957588510a85f95f4ba
+|   |   |---ee
+|   |   |   `---1ba290d90cdc2340f3c3e691882c95a75b6dcd
+|   |   |---f0
+|   |   |   |---29f3d3a2cd8bdb302d5538786b4f4e107c5318
+|   |   |   |---2f0d79b09456d61fca8d5656f15c71cc57e5b3
+|   |   |   |---3436f5f3ecdd05e557f4dc03b89d0924bbfaeb
+|   |   |   |---5da2447eefca6c073f74c91cf140af4448c73c
+|   |   |   `---7ce1821913fa2e04017e2c67278b076e172434
+|   |   |---f2
+|   |   |   |---5414598e2572acd70aceaa974cedc308fa80ba
+|   |   |   `---8636bc3a1b6b2fe0a53d4ad3d71eca0b84fc31
+|   |   |---f3
+|   |   |   `---e5acaf994e985bb841b9bfe3785c4b31e33c87
+|   |   |---f5
+|   |   |   `---5c1aea558000dba89e2e1d3647c2ae162b6d56
+|   |   |---f6
+|   |   |   `---425cda86d2ce8f42f811eec29ebe135719fc1a
+|   |   |---f8
+|   |   |   `---2da29af409864aad7f2d9eeefd4b39896677cb
+|   |   |---f9
+|   |   |   `---0c396e107bc13de79606fab0d793e8123a1c8a
+|   |   |---fa
+|   |   |   |---87fe94de7d620f4e15c1287d5ee1dab8aff85e
+|   |   |   `---dd4e309031afdf42a3205719e50777571e51f9
+|   |   |---fb
+|   |   |   |---8ebc04f9d21a32a1944e7f4263e033a93c3af3
+|   |   |   `---c77d033d4147dffdff2b7180ebcbfe3108383d
+|   |   |---fd
+|   |   |   `---1fcb2327e7006cab7617c474bd77d69b4bba92
+|   |   |---fe
+|   |   |   `---d6e8e81d0c80f1190b17e2290526288be38e72
+|   |   |---ff
+|   |   |   `---183cbdfbe589c378301397c37e762aacb00f3f
+|   |   |---info
+|   |   `---pack
+|   `---refs
+|       |---heads
+|       |   `---master
+|       |---remotes
+|       |   `---origin
+|       |       `---master
+|       `---tags
+|---build
+|   |---.htaccess
+|   |---404.html
+|   |---favicon.ico
+|   |---humans.txt
+|   |---index.html
+|   |---robots.txt
+|   |---thanks.html
+|   |---admin
+|   |   |---changestatus.php
+|   |   |---config.php
+|   |   |---database.php
+|   |   |---index.php
+|   |   |---initialize.php
+|   |   |---login.php
+|   |   |---script.js
+|   |   |---sendmail.php
+|   |   |---css
+|   |   |   |---bootstrap.css
+|   |   |   `---style.css
+|   |   |---img
+|   |   |   |---logo.png
+|   |   |   `---top_bg.png
+|   |   `---phpmailer
+|   |       |---class.phpmailer.php
+|   |       `---class.smtp.php
+|   |---css
+|   |   |---index.css
+|   |   |---style.css
+|   |   `---styles.min.css
+|   |---font
+|   |---img
+|   |   `---browsers
+|   |       |---browser_chrome.gif
+|   |       |---browser_firefox.gif
+|   |       |---browser_gcf.gif
+|   |       |---browser_konqueror.gif
+|   |       |---browser_msie.gif
+|   |       |---browser_opera.gif
+|   |       `---browser_safari.gif
+|   `---js
+|       |---jquery-1.11.1.min.js
+|       |---particles.min.js
+|       |---reveal.min.js
+|       `---scripts.min.js
+|---design
+`---src
+    |---img
+    |   `---browsers
+    |       |---browser_chrome.gif
+    |       |---browser_firefox.gif
+    |       |---browser_gcf.gif
+    |       |---browser_konqueror.gif
+    |       |---browser_msie.gif
+    |       |---browser_opera.gif
+    |       `---browser_safari.gif
+    |---js
+    |   |---index.js
+    |   |---initialize
+    |   |   |---browsers-support.js
+    |   |   |---custom.js
+    |   |   |---forms.js
+    |   |   |---gallery.js
+    |   |   |---lazyload.js
+    |   |   |---livequery.js
+    |   |   |---popup.js
+    |   |   |---scrollto.js
+    |   |   |---slider.js
+    |   |   |---timer.js
+    |   |   `---waypoint.js
+    |   `---plugins
+    |       |---jquery.bxslider.js
+    |       |---jquery.flipclock.js
+    |       |---jquery.lazyload.js
+    |       |---jquery.livequery.js
+    |       |---jquery.magnific-popup.js
+    |       |---jquery.maskedinput.js
+    |       |---jquery.nouislider.js
+    |       |---jquery.placeholder.js
+    |       |---jquery.prettyPhoto.js
+    |       |---jquery.reject.js
+    |       |---jquery.validate.min.js
+    |       |---jquery.waypoints.js
+    |       `---reveal.js
+    `---scss
+        |---index.scss
+        |---initialize
+        |   |---_gallery.scss
+        |   |---_popup.scss
+        |   |---_slider.scss
+        |   `---_timer.scss
+        |---parts
+        |   |---_footer.scss
+        |   |---_header.scss
+        |   |---_main.scss
+        |   `---_map.scss
+        |---plugins
+        |   |---_bxSlider.scss
+        |   |---_flipClock.scss
+        |   |---_magnificPopup.scss
+        |   |---_prettyPhoto.scss
+        |   |---_reject.scss
+        |   |---_reveal.scss
+        |   `---animate
+        |       |---_bounce.scss
+        |       |---_bounceIn.scss
+        |       |---_bounceInDown.scss
+        |       |---_bounceInLeft.scss
+        |       |---_bounceInRight.scss
+        |       |---_bounceInUp.scss
+        |       |---_bounceOut.scss
+        |       |---_bounceOutDown.scss
+        |       |---_bounceOutLeft.scss
+        |       |---_bounceOutRight.scss
+        |       |---_bounceOutUp.scss
+        |       |---_default.scss
+        |       |---_fadeIn.scss
+        |       |---_fadeInDown.scss
+        |       |---_fadeInDownBig.scss
+        |       |---_fadeInLeft.scss
+        |       |---_fadeInLeftBig.scss
+        |       |---_fadeInRight.scss
+        |       |---_fadeInRightBig.scss
+        |       |---_fadeInUp.scss
+        |       |---_fadeInUpBig.scss
+        |       |---_fadeOut.scss
+        |       |---_fadeOutDown.scss
+        |       |---_fadeOutDownBig.scss
+        |       |---_fadeOutLeft.scss
+        |       |---_fadeOutLeftBig.scss
+        |       |---_fadeOutRight.scss
+        |       |---_fadeOutRightBig.scss
+        |       |---_fadeOutUp.scss
+        |       |---_fadeOutUpBig.scss
+        |       |---_flash.scss
+        |       |---_flip.scss
+        |       |---_flipInX.scss
+        |       |---_flipInY.scss
+        |       |---_flipOutX.scss
+        |       |---_flipOutY.scss
+        |       |---_hinge.scss
+        |       |---_lightSpeedIn.scss
+        |       |---_lightSpeedOut.scss
+        |       |---_pulse.scss
+        |       |---_rollIn.scss
+        |       |---_rollOut.scss
+        |       |---_rotateIn.scss
+        |       |---_rotateInDownLeft.scss
+        |       |---_rotateInDownRight.scss
+        |       |---_rotateInUpLeft.scss
+        |       |---_rotateInUpRight.scss
+        |       |---_rotateOut.scss
+        |       |---_rotateOutDownLeft.scss
+        |       |---_rotateOutDownRight.scss
+        |       |---_rotateOutUpLeft.scss
+        |       |---_rotateOutUpRight.scss
+        |       |---_rubberBand.scss
+        |       |---_shake.scss
+        |       |---_slideInDown.scss
+        |       |---_slideInLeft.scss
+        |       |---_slideInRight.scss
+        |       |---_slideInUp.scss
+        |       |---_slideOutDown.scss
+        |       |---_slideOutLeft.scss
+        |       |---_slideOutRight.scss
+        |       |---_slideOutUp.scss
+        |       |---_swing.scss
+        |       |---_tada.scss
+        |       |---_wobble.scss
+        |       |---_zoomIn.scss
+        |       |---_zoomInDown.scss
+        |       |---_zoomInLeft.scss
+        |       |---_zoomInRight.scss
+        |       |---_zoomInUp.scss
+        |       |---_zoomOut.scss
+        |       |---_zoomOutDown.scss
+        |       |---_zoomOutLeft.scss
+        |       |---_zoomOutRight.scss
+        |       `---_zoomOutUp.scss
+        `---settings
+            |---_btns.scss
+            |---_colors.scss
+            |---_default.scss
+            |---_fonts.scss
+            |---_form.scss
+            |---_grids.scss
+            |---_mixins.scss
+            |---_scrollup.scss
+            `---_sprites.scss
