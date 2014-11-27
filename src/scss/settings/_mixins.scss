@@ -1,0 +1,24 @@
+/**
+ *
+ * Page mixins
+ *
+ */
+
+// Page sections height calculation using background images height
+@mixin part($img) {
+	height: image-height($img);
+	background: #fff url($img) top center no-repeat;
+	font-weight: bold;
+	text-align: center;
+}
+
+// Clearfix silent class
+%clear{
+	&:after{
+		content: "";
+		display: block;
+		width: 0;
+		height: 0;
+		clear: both;
+	}
+}

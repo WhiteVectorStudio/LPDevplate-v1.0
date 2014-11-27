@@ -1,0 +1,134 @@
+<?php
+	if($_GET['utm_source'] === "yandex"){
+		$utm_source = $_GET['utm_source'];
+		$type       = $_GET['type'];
+		$source     = $_GET['source'];
+		$keyword    = $_GET['keyword'];
+	}elseif($_GET['utm_source'] === "google"){
+		$utm_source = $_GET['utm_source'];
+		$type       = $_GET['network'];
+		$source     = $_GET['placement'];
+		$keyword    = $_GET['utm_term'];
+	}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=1000">
+	
+	<title>PageTitle</title>
+	<meta name="description" content="Park House">
+	
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Include Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+
+	<!-- Include fonts -->
+		<!-- <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'> -->
+
+	<!-- Prioritize above the fold content (Critical path CSS) -->
+		<style>
+			/* Here is inline critical path CSS */
+		</style>
+</head>
+<body>
+
+<!-- Above the fold content (Critical path) -->
+
+	<!--================================================
+						$Header
+	=================================================-->
+		<header class="header">
+			<div class="container">
+				
+			</div>
+		</header><!-- /.header -->
+
+
+	<!--================================================
+						$Main
+	=================================================-->
+		<main class="main">
+			<div class="container">
+				<h2 class="title main__title">Откройте собственный бизнес фаст-фуда<br>с высокой доходностью</h2>
+			</div><!-- /.container -->
+		</main><!-- /.main -->
+
+<!-- End of above the fold content (Critical path) -->
+
+
+<!-- Other page markup -->
+
+<!-- Include main styles -->
+	<link href="css/styles.min.css" rel="stylesheet">
+
+
+<!--================================================
+					$Map
+=================================================-->
+	<section class="map">
+		<div class="map__area">
+			<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=Yd1IRpgnmoBiMxRg72Hjz9SywSjhq5Ow&amp;width=100/25&amp;height=450"></script>
+		</div>
+	</section><!-- /.map -->
+
+
+<!--================================================
+					$Footer
+=================================================-->
+	<footer class="footer">
+		<div class="container">
+			<p>&copy; 2014. CompanyName</p>
+		</div><!-- /.container -->
+	</footer><!-- /.footer -->
+
+<!--================================================
+					$Hidden part of page
+================================================-->
+	<!-- $Scroll Up Button -->
+		<div class="scroll-up"></div>
+
+	<!-- $Callback modal window -->
+		<div id="modal" class="zoom-anim-dialog mfp-hide">
+			<form class="form form--modal" id="js-form-modal" action="admin/sendmail.php" method="post">
+				<h2 class="form__title">ОСТАВЬТЕ СВОИ КОНТАКТЫ</h2>
+				<p class="form__text">НАШИ МЕНЕДЖЕРЫ ПЕРЕЗВОНЯТ ВАМ<br> И ОТВЕТЯТ НА ВАШИ ВОПРОСЫ</p>
+				<div class="form__required">
+					<input type="text" class="form__input" name="Name" placeholder="Имя *" onfocus="if (this.placeholder=='Имя *') this.placeholder='' " onblur="if (this.placeholder==''){this.placeholder='Имя *'}">
+				</div>
+				<div class="form__required">
+					<input class="form__input phone" name="Phone" placeholder="Телефон *" type="text">
+				</div>
+				<div class="form__required">
+					<input type="text" class="form__input" name="Email" placeholder="Email *" onfocus="if (this.placeholder=='Email *') this.placeholder='' " onblur="if (this.placeholder==''){this.placeholder='Email *'}">
+				</div>
+				<input type="hidden" id="js-subject" name="subject" value="Заявка на обратный звонок ">
+				<input type="hidden" id="js-from" name="from" value="ПОДАТЬ ЗАЯВКУ в шапке сайта ">
+				<input type="hidden" name="utm_source" value="<? echo $utm_source; ?>">
+				<input type="hidden" name="type"       value="<? echo $type; ?>">
+				<input type="hidden" name="source"     value="<? echo $source; ?>">
+				<input type="hidden" name="keyword"    value="<? echo $keyword; ?>">
+				<button class="btn form--modal__btn">ОТПРАВИТЬ ЗАЯВКУ</button>
+			</form>
+		</div><!-- /#modal -->
+
+	<div id="modal2" class="zoom-anim-dialog mfp-hide">
+		<p></p>
+	</div><!-- /#modal -->
+
+<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.1.11.1.min.js"><\/script>')</script>
+
+<!-- Custom JavaScript -->
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

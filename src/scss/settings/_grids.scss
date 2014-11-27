@@ -1,0 +1,70 @@
+// Requirements
+// ============
+
+@import "susy";
+
+	$susy: (
+		container: 960px,
+		columns: 12,
+		gutters: 1/12,
+		global-box-sizing: border-box,
+	);
+
+/*
+ * Default grid
+ */
+	$default: (
+		container: 960px,
+		columns: 12,
+		gutters: 1/12,
+		global-box-sizing: border-box,
+	);
+
+/*
+ * Grids 12 cols without gutters
+ */
+	$no-gutters: (
+		container: 960px,
+		columns: 12,
+		gutters: 0,
+		global-box-sizing: border-box,
+	);
+
+/*
+ * Grids 5 columns
+ */
+	$five: (
+		container: 960px,
+		columns: 5,
+		gutters: 1/5,
+		global-box-sizing: border-box,
+	);
+/*
+ * Grids 4 columns
+ */
+	$four: (
+		container: 960px,
+		columns: 4,
+		gutters: 1/4,
+		global-box-sizing: border-box,
+	);
+/*
+ * Grids 3 columns
+ */
+	$three: (
+		container: 960px,
+		columns: 3,
+		gutters: 0.2,
+		global-box-sizing: border-box,
+	);
+/*
+ * Grids 2 columns
+ */
+	$half: (
+		container: 960px,
+		columns: 2,
+		gutters: 0,
+		global-box-sizing: border-box,
+	);
+
+.container{ @include container; }

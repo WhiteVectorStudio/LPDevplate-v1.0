@@ -1,0 +1,80 @@
+/**
+ *
+ * magnificPopup plugins custom styles
+ *
+ */ 
+#modal{
+	text-align: center;
+	width: 830px;
+	height: 540px;
+	margin: 50px auto 0;
+	padding: 80px 50px 0 415px;
+	position: relative;
+	background: url('../img/popup.png') center top no-repeat;
+}
+	.form--modal{
+		padding: 50px 10px;
+		.form__input{
+			color: $text;
+		}
+		.form__title{
+			margin-bottom: 10px;
+			font-family: "PT Sans Narrow", sans-serif;
+			font-size: 33px;
+			line-height: 1.5;
+			font-weight: normal;
+		}
+		.form__text{
+			color: $default;
+			font-family: "PT Sans Narrow", sans-serif;
+			font-size: 24px;
+			font-weight: lighter;
+			margin-bottom: 20px;
+		}
+
+		label.error{
+			position: absolute;
+			display: inline-block;
+			width: 260px;
+			height: 34px;
+			margin: 0;
+			padding: 0 10px;
+			top: -2px;
+			right: -220px;
+			font-family: arial;
+			font-size: 10px;
+			text-align: left;
+			line-height: 34px;
+			color: #000;
+			background: #FFF4D7;
+			border: 1px solid red;
+			border-radius: 5px;
+
+			&:after, &:before {
+				right: 100%;
+				top: 50%;
+				border: solid transparent;
+				content: " ";
+				height: 0;
+				width: 0;
+				position: absolute;
+				pointer-events: none;
+			}
+
+			&:after {
+				border-color: rgba(255, 244, 215, 0);
+				border-right-color: #FFF4D7;
+				border-width: 7px;
+				margin-top: -7px;
+			}
+			&:before {
+				border-color: rgba(255, 0, 0, 0);
+				border-right-color: #f00;
+				border-width: 8px;
+				margin-top: -8px;
+			}
+		}
+		&__btn{
+			font-size: 25px;
+		}
+	}

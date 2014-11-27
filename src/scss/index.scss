@@ -1,0 +1,79 @@
+/*-------------------------------------------------*\
+	  Configuration file for all website styles
+\*-------------------------------------------------*/
+
+/*===================================================
+ *
+ * $Compass imports
+ *
+ */
+	@import 'compass';
+	@import 'compass/reset';
+	@import 'compass/css3';
+//===================================================
+
+
+/*===================================================
+ *
+ * $Custom imports
+ *
+ */ 
+	@import 'settings/fonts'; 
+	@import 'settings/grids';
+	@import 'settings/colors';
+	@import 'settings/mixins';
+	@import 'settings/btns';
+	@import 'settings/form';
+	@import 'settings/scrollup';
+	@import 'settings/sprites';
+	@import 'settings/default';
+//===================================================
+
+
+/*===================================================
+ *
+ * $Page sections
+ *
+ */ 
+	@import 'parts/header'; 
+	@import 'parts/main';
+	// @import 'parts/part-of-page';
+	// @import 'parts/part-of-page';
+	// @import 'parts/part-of-page';
+	// @import 'parts/part-of-page';
+	// @import 'parts/part-of-page';
+	@import 'parts/map';
+	@import 'parts/footer';
+//===================================================
+
+
+/*===================================================
+ *
+ * Plugins
+ *
+ */ 
+	// Animate.css
+		// @import "plugins/animate/default";
+		// @import "plugins/animate/fadeInUp";
+		// @import "plugins/animate/fadeIn";
+		// @import "plugins/animate/fadeOut";
+	
+	@import "plugins/magnificPopup";
+	@import "plugins/bxSlider";
+	@import "plugins/prettyPhoto";
+	@import "plugins/reject";
+	// @import "plugins/flipClock";
+	// @import "plugins/reveal";
+//===================================================
+
+
+/*===================================================
+ *
+ * Plugins intialization
+ *
+ */ 
+	@import "initialize/popup";
+	@import "initialize/timer";
+	@import "initialize/gallery";
+	@import "initialize/slider";
+//===================================================

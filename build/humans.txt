@@ -1,0 +1,29 @@
+/* TEAM */
+
+                            
+Developer - Kanat Sahanov.
+Site: kana_sahanov@mail.ru, kanat.sahanov@gmail.com, dev4@prodengi.kz.
+Twitter: KanatSahanov.
+VKontakte: https://vk.com/kanatsahanov.                          
+Location: Almaty, Kazakhstan.
+--------------------------------------
+                 
+Designer - Timur Manakov.                            
+Site: designer@prodengi.kz.                            
+VKontakte: https://vk.com/id257584642                            
+Location: Almaty, Kazakhstan.
+						
+
+							
+/* THANKS */
+
+							
+Denis Kainazarov - database core developer
+                        
+
+                            
+/* SITE */
+                    
+Standards: HTML5, CSS3.                            
+Components: Gulp, jQuery, Sass, Compass, Susy, bxSlider, magnificPopup, jquery-validate, maskedinput, prettyPhoto, lazyload, placeholder, flipclock, reject
+Software: Windows 8, GoogleChrome v37.

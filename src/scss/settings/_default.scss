@@ -1,0 +1,53 @@
+/**
+ *
+ * $Default styles
+ *
+ */ 
+	*{ box-sizing: border-box; }
+
+	body{
+		min-width: 1000px;
+		font-family: $defaultFont;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.2;
+		color: #000;
+		background-color: #fff;
+		overflow-x: hidden;
+		overflow-y: auto!important;
+	}
+	
+	section{
+		padding: 30px 0;
+		text-align: center;
+	}
+	
+	a {
+		text-decoration: none;
+		color: $primary;
+
+		&:hover{
+			color: initial;
+		}
+	}
+
+/**
+ *
+ * $Default classes
+ *
+ */ 
+ 	.container{ position: relative; }
+ 	
+ 	.clear{ clear: both; }
+ 	
+ 	.title {
+		padding-top: 25px;
+		font-size: 40px;
+		color: $title;
+		text-align: center;
+		text-transform: uppercase;
+		
+		&--primary {
+			color: $text;
+		}
+	}

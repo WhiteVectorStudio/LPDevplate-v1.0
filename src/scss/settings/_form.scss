@@ -1,0 +1,169 @@
+/**
+ *
+ * $Form
+ *
+ */ 
+.form{
+	text-align: center;
+	padding: 20px 0;
+	padding: 0;
+
+	// Forms title
+	&__title{
+		margin-bottom: 40px;
+		font-size: 28px;
+		font-weight: normal;
+		text-transform: uppercase;
+		line-height: 1.2;
+		color: $default;
+	}
+	
+	// Forms subtitle
+	&__text{
+		margin-bottom: 10px;
+		font-size: 18px;
+		line-height: 1;
+	}
+
+	// Forms input fields
+	&__input{
+		display: inline-block;
+		width: 100%;
+		height: 40px;
+		margin-bottom: 8px;
+		padding: 0 10px;
+		border: none;
+		text-align: left;
+		outline: 0;
+		font-family: "PT Sans Narrow", sans-serif;
+		font-size: 18px;
+		font-weight: normal;
+		background: $default;
+		color: $primary;
+
+		&::-webkit-input-placeholder {
+			font-family: "PT Sans Narrow", sans-serif;
+			font-size: 18px;
+			text-transform: none;
+			color: $primary;
+			text-align: left;
+			font-weight: 300;
+			height: 40px;
+			opacity: 1;
+		}
+
+		&:-moz-placeholder { 
+			font-family: "PT Sans Narrow", sans-serif;
+			font-size: 18px;
+			text-transform: none;
+			color: $primary;
+			text-align: left;
+			font-weight: 300;
+			height: 40px;
+			opacity: 1;
+		}
+
+		&::-moz-placeholder {  
+			font-family: "PT Sans Narrow", sans-serif;
+			font-size: 18px;
+			text-transform: none;
+			color: $primary;
+			text-align: left;
+			font-weight: 300;
+			height: 40px;
+			opacity: 1;
+		}
+
+		&:-ms-input-placeholder {  
+			font-family: "PT Sans Narrow", sans-serif;
+			font-size: 18px;
+			text-transform: none;
+			color: $primary;
+			text-align: left;
+			font-weight: 300;
+			height: 40px;
+			opacity: 1;
+		}
+
+		&.error{
+			background-color: #FFD0D0;
+			border: 1px solid #FF0000;
+
+			&:after{
+				content: "Заполните поле";
+				display: block;
+				position: absolute;
+			}
+		}
+	}
+		
+	// Forms required fields wrapper
+	&__errorbox{
+		position: relative;
+		display: block;
+		&.error{
+
+			label{
+				margin: -10px 0 5px 0;
+				display: block;
+			}
+		}
+	}
+	
+	// Forms label
+	label{
+		color: $default;
+		font-size: 11px;
+		font-weight: normal;
+
+		&.error{
+			position: absolute;
+			display: inline-block;
+			width: 260px;
+			height: 34px;
+			margin: 0;
+			padding: 0 10px;
+			top: -2px;
+			right: -250px;
+			font-family: arial;
+			font-size: 10px;
+			text-align: left;
+			line-height: 34px;
+			color: #000;
+			background: #FFF4D7;
+			border: 1px solid red;
+			border-radius: 5px;
+
+			&:after, &:before {
+				right: 100%;
+				top: 50%;
+				border: solid transparent;
+				content: " ";
+				height: 0;
+				width: 0;
+				position: absolute;
+				pointer-events: none;
+			}
+
+			&:after {
+				border-color: rgba(255, 244, 215, 0);
+				border-right-color: #FFF4D7;
+				border-width: 7px;
+				margin-top: -7px;
+			}
+			&:before {
+				border-color: rgba(255, 0, 0, 0);
+				border-right-color: #f00;
+				border-width: 8px;
+				margin-top: -8px;
+			}
+		}
+	}
+
+	// Forms button
+	&__btn{
+		margin-top: 15px;
+		padding: 0 20px;
+		height: 48px;
+	}
+}
