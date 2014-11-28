@@ -1,12 +1,12 @@
 #Landing Page Development template
 
-|---.gitignore
-|---analytics_code.txt
-|---config.rb
-|---gulpfile.js
-|---package.json
-|---README.md
-|---build
+    |---.gitignore
+    |---analytics_code.txt
+    |---config.rb
+    |---gulpfile.js
+    |---package.json
+    |---README.md
+    |---build
 |   |---.htaccess
 |   |---404.html
 |   |---favicon.ico
